@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin-inline: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: pink;
+    background-color: black;
+    border-bottom: 1px solid gray;
+}
+
+.Header-text {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 16px;
+    align-items: center;
+}
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.Text-1 {
+   display: flex;
+   gap: 15px;
+}
+
+@media  (max-width:1200px) {
+.Text-1 {
+    display: none;
+}
+.icon-container {
+    display: flex;
+}
+}
+
+
