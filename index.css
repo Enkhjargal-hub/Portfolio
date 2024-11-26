@@ -52,12 +52,17 @@ header {
 
 .Section-1 {
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+    font-style: Bebas neue;
+    width: 300px;
+    gap: 8px;
 }
 
 .Section-2 {
     color: white;
     font-size: 15px;
+    font-style: manrope;
+    width: 400px;
 }
 
 .All-icon {
@@ -76,7 +81,7 @@ header {
 }
 
 .Header-img {
-    width: 600px;
+    width: 373px;
     height: 663px;
 }
 
@@ -84,4 +89,65 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-inline: 30px;
+    gap: 40px;
+}
+
+@media (max-width: 1200px) {
+    .Section-text {
+        flex-direction: column;
+        text-align: center;
+    }
+    .All-section {
+        text-align: left;
+    }
+    .Section-img {
+        width: 343px;
+        height: 500px;
+        justify-content: left;
+    }
+}
+.All-pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 30px;
+    margin-top: 50px;
+}
+
+.all-text {
+    margin-left: 30px;
+}
+
+.Pro-text-1 {
+    color: white;
+    font-size: 36px;
+    gap: 8px;
+}
+
+.Pro-text-2 {
+    color: white;
+    font-size: 15px;
+    font-style: manrope;
+    width: 400px;
+}
+
+.Pro-img {
+    width: 486px;
+    height: 347px;
+    background-color: #1a1a1a;
+}
+
+.Pro-text-3 {
+    color: white;
+    font-size: 30px;
+    font-style: manrope;
+    width: 400px;
+}
+
+.Pro-text-4 {
+    color: #c7c7c7;
+    font-size: 18px;
+    font-style: manrope;
+    width: 500px;
 }
