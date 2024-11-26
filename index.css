@@ -60,7 +60,28 @@ header {
     font-size: 15px;
 }
 
+.All-icon {
+    gap: 15px;
+}
+
+.icon-1 {
+    width: 30px;
+    height: 30px;
+}
+
 .icon-2 {
     width: 30px;
     height: 30px;
+    border-radius: 15px;
+}
+
+.Header-img {
+    width: 600px;
+    height: 663px;
+}
+
+.Section-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
