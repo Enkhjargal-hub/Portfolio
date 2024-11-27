@@ -133,8 +133,8 @@ header {
 }
 
 .Pro-img {
-    width: 486px;
-    height: 347px;
+    width: 600px;
+    height: 600px;
     background-color: #1a1a1a;
 }
 
@@ -150,4 +150,15 @@ header {
     font-size: 18px;
     font-style: manrope;
     width: 500px;
+}
+
+.info-text {
+    color: #d3e97a;
+    font-size: 16px;
+}
+
+.Pro-section {
+    width: 284px;
+    height: 30px;
+    gap: 24px;
 }
