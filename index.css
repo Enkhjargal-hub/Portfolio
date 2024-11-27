@@ -192,13 +192,19 @@ header {
 .Promo {
     gap: 35px;
     margin-inline: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .Promo-1 {
     gap: 35px;
     margin-inline: 30px;
-    margin-top: 30px;
+    margin-top: 60px;
+}
+
+.Promo-2 {
+    gap: 35px;
+    margin-inline: 30px;
+    margin-top: 60px;
 }
 
 .Promo-img {
@@ -215,3 +221,50 @@ header {
     color: white;
     border-radius: 20px;
 }
+
+.About-section {
+    margin-inline: 50px;
+}
+
+.About-text-1 {
+    color: white;
+    font-size: 35px;
+    font-style: Bebas neue;
+}
+
+.About-text-2 {
+    color: white;
+    font-size: 20px;
+    font-style: Manrope;
+}
+
+.About-text-3 {
+    color: #c7c7c7;
+    font-size: 15px;
+    font-style: Manrope;
+}
+
+.About-text-4 {
+    color: #d3e97a;
+    font-size: 15px;
+    font-style: Manrope;
+}
+
+.connect-text-1 {
+    color: white;
+    font-size: 28px;
+    font-style: Bebas neue;
+}
+
+.connect-text-2 {
+    color: #c7c7c7;
+    font-size: 15px;
+    font-style: Manrope;
+}
+
+.connect-text-3 {
+    color: #c7c7c7;
+    font-size: 15px;
+    font-style: Manrope;
+}
+
