@@ -111,8 +111,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-inline: 30px;
+    width: 1224px;
+    height: 2418px;
+    top: 906px;
+    left: 108px;
+    padding-top: 80px;
+    margin-inline: 50px;
     margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .all-text {
@@ -149,7 +156,7 @@ header {
     color: #c7c7c7;
     font-size: 18px;
     font-style: manrope;
-    width: 500px;
+    width: 576px;
 }
 
 .info-text {
@@ -161,4 +168,31 @@ header {
     width: 284px;
     height: 30px;
     gap: 24px;
+}
+
+.Pro-text-5 {
+    color: #fff;
+    font-size: 16px;
+    font-style: manrope;
+}
+
+.Pro-text-6 {
+    color: #c7c7c7;
+    font-size: 16px;
+    font-style: manrope;
+}
+
+.Pi-text {
+    color: #fff;
+    font-size: 16px;
+    font-style: manrope;
+}
+
+.All-info {
+    width: 576px;
+    height: 176px;
+}
+
+.Promo {
+    gap: 35px;
 }
