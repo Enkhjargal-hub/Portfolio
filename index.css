@@ -111,15 +111,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1224px;
-    height: 2418px;
-    top: 906px;
-    left: 108px;
-    padding-top: 80px;
-    margin-inline: 50px;
     margin-top: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-inline: 50px;
 }
 
 .all-text {
@@ -140,16 +133,18 @@ header {
 }
 
 .Pro-img {
-    width: 600px;
-    height: 600px;
+    width: 486px;
+    height: 347px;
     background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Pro-text-3 {
     color: white;
     font-size: 30px;
     font-style: manrope;
-    width: 400px;
 }
 
 .Pro-text-4 {
@@ -165,8 +160,8 @@ header {
 }
 
 .Pro-section {
-    width: 284px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     gap: 24px;
 }
 
@@ -190,9 +185,27 @@ header {
 
 .All-info {
     width: 576px;
-    height: 176px;
+    justify-content: center;
+    align-items: center;
 }
 
 .Promo {
     gap: 35px;
+    margin-inline: 30px;
+    margin-top: 30px;
+}
+
+.Promo-img {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.Pro-1 {
+    width: 145px;
+    height: 37px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
 }
