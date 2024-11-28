@@ -211,7 +211,7 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 600px;
+  width: 50%;
 }
 
 .Pro-1 {
@@ -319,10 +319,6 @@ header {
   body {
     background-color: red;
   }
-  .Pro-text-1{
-    width: 100%;
-    font-size: 100%;
-  }
   .Pro-text-2 {
     width: 100%;
   }
@@ -331,6 +327,7 @@ header {
   }
   .Pro-text-4 {
     width: 100%;
+    flex-wrap: wrap;
   }
   .All-info {
     width: 100%;
@@ -341,5 +338,8 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  .Promo-img {
+    width: 100%;
   }
 }
