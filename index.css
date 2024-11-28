@@ -319,9 +319,7 @@ header {
 }
 
 @media (max-width: 600px) {
-  body {
-    background-color: red;
-  }
+  
   .Pro-text-2 {
     width: 100%;
   }
@@ -371,7 +369,9 @@ header {
   }
   .About-text-2 {
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
   }
   .All-connect {
     flex-wrap: wrap;
