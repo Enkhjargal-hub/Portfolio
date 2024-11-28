@@ -1,331 +1,345 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: black;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
 .container {
-    width: 100%;
-    margin-inline: 30px;
+  width: 100%;
+  margin-inline: 30px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    color: pink;
-    background-color: black;
-    border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  color: pink;
+  background-color: black;
+  border-bottom: 1px solid gray;
 }
 
 .Header-text {
-    display: flex;
-    justify-content: space-between;
-    border: none;
-    font-weight: bold;
-    font-size: 30px;
-    padding: 16px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 16px;
+  align-items: center;
 }
 
 .icon-container {
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-    display: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
 
 .Text-1 {
-   display: flex;
-   gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
-@media  (max-width:1200px) {
-.Text-1 {
+@media (max-width: 1200px) {
+  .Text-1 {
     display: none;
-}
-.icon-container {
+  }
+  .icon-container {
     display: flex;
-}
+  }
 }
 
 .Section-1 {
-    color: white;
-    font-size: 50px;
-    font-style: Bebas neue;
-    width: 300px;
-    gap: 8px;
+  color: white;
+  font-size: 50px;
+  font-style: Bebas neue;
+  width: 300px;
+  gap: 8px;
 }
 
 .Section-2 {
-    color: white;
-    font-size: 15px;
-    font-style: manrope;
-    width: 400px;
+  color: white;
+  font-size: 15px;
+  font-style: manrope;
+  width: 400px;
 }
 
 .All-icon {
-    gap: 15px;
+  gap: 15px;
 }
 
 .icon-1 {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .icon-2 {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
 }
 
 .Header-img {
-    width: 373px;
-    height: 663px;
+  width: 373px;
+  height: 663px;
 }
 
 .Section-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-inline: 30px;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 30px;
+  gap: 40px;
 }
 
 @media (max-width: 1200px) {
-    .Section-text {
-        flex-direction: column;
-        text-align: center;
-    }
-    .All-section {
-        text-align: left;
-    }
-    .Section-img {
-        width: 343px;
-        height: 500px;
-        justify-content: left;
-    }
+  .Section-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  .All-section {
+    text-align: left;
+  }
+  .Section-img {
+    width: 343px;
+    height: 500px;
+    justify-content: left;
+  }
 }
 .All-pro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-inline: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-inline: 50px;
 }
 
 .all-text {
-    text-align: left;
+  text-align: left;
 }
 
 .Pro-text-1 {
-    color: white;
-    font-size: 36px;
-    gap: 8px;
+  color: white;
+  font-size: 36px;
+  gap: 8px;
 }
 
 .Pro-text-2 {
-    color: white;
-    font-size: 15px;
-    font-style: manrope;
-    width: 400px;
+  color: white;
+  font-size: 15px;
+  font-style: manrope;
+  width: 400px;
 }
 
 .Pro-img {
-    width: 486px;
-    height: 347px;
-    background-color: #1a1a1a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 486px;
+  height: 347px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Pro-text-3 {
-    color: white;
-    font-size: 30px;
-    font-style: manrope;
+  color: white;
+  font-size: 30px;
+  font-style: manrope;
 }
 
 .Pro-text-4 {
-    color: #c7c7c7;
-    font-size: 18px;
-    font-style: manrope;
-    width: 576px;
+  color: #c7c7c7;
+  font-size: 18px;
+  font-style: manrope;
+  width: 576px;
 }
 
 .info-text {
-    color: #d3e97a;
-    font-size: 16px;
+  color: #d3e97a;
+  font-size: 16px;
 }
 
 .Pro-section {
-    width: 100%;
-    height: 100%;
-    gap: 24px;
+  width: 100%;
+  height: 100%;
+  gap: 24px;
 }
 
 .Pro-text-5 {
-    color: #fff;
-    font-size: 16px;
-    font-style: manrope;
+  color: #fff;
+  font-size: 16px;
+  font-style: manrope;
 }
 
 .Pro-text-6 {
-    color: #c7c7c7;
-    font-size: 16px;
-    font-style: manrope;
+  color: #c7c7c7;
+  font-size: 16px;
+  font-style: manrope;
 }
 
 .Pi-text {
-    color: #fff;
-    font-size: 16px;
-    font-style: manrope;
+  color: #fff;
+  font-size: 16px;
+  font-style: manrope;
 }
 
 .All-info {
-    width: 576px;
-    justify-content: center;
-    align-items: center;
+  width: 576px;
+  justify-content: center;
+  align-items: center;
 }
 
 .Promo {
-    gap: 35px;
-    margin-inline: 30px;
-    margin-top: 60px;
+  gap: 35px;
+  margin-inline: 30px;
+  margin-top: 60px;
 }
 
 .Promo-1 {
-    gap: 35px;
-    margin-inline: 30px;
-    margin-top: 60px;
+  gap: 35px;
+  margin-inline: 30px;
+  margin-top: 60px;
 }
 
 .Promo-2 {
-    gap: 35px;
-    margin-inline: 30px;
-    margin-top: 60px;
+  gap: 35px;
+  margin-inline: 30px;
+  margin-top: 60px;
 }
 
 .Promo-img {
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 600px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 600px;
 }
 
 .Pro-1 {
-    width: 145px;
-    height: 37px;
-    background-color: black;
-    color: white;
-    border-radius: 20px;
+  width: 145px;
+  height: 37px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
 }
 
 .About-section {
-    margin-inline: 50px;
+  margin-inline: 50px;
 }
 
 .About-text-1 {
-    color: white;
-    font-size: 35px;
-    font-style: Bebas neue;
+  color: white;
+  font-size: 35px;
+  font-style: Bebas neue;
 }
 
 .About-text-2 {
-    color: white;
-    font-size: 20px;
-    font-style: Manrope;
+  color: white;
+  font-size: 20px;
+  font-style: Manrope;
 }
 
 .About-text-3 {
-    color: #c7c7c7;
-    font-size: 15px;
-    font-style: Manrope;
+  color: #c7c7c7;
+  font-size: 15px;
+  font-style: Manrope;
 }
 
 .About-text-4 {
-    color: #d3e97a;
-    font-size: 15px;
-    font-style: Manrope;
+  color: #d3e97a;
+  font-size: 15px;
+  font-style: Manrope;
 }
 
 .All-1 {
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .All-2 {
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .All-connect {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 40px;
-    margin-left: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .connect-text-1 {
-    color: white;
-    font-size: 28px;
-    font-style: Bebas neue;
+  color: white;
+  font-size: 28px;
+  font-style: Bebas neue;
 }
 
 .connect-text-2 {
-    color: #c7c7c7;
-    font-size: 15px;
-    font-style: Manrope;
+  color: #c7c7c7;
+  font-size: 15px;
+  font-style: Manrope;
 }
 
 .connect-text-3 {
-    color: #c7c7c7;
-    font-size: 15px;
-    font-style: Manrope;
+  color: #c7c7c7;
+  font-size: 15px;
+  font-style: Manrope;
 }
 
 .connect-text-4 {
-    color: #c7c7c7;
-    font-size: 15px;
-    font-style: Manrope;
+  color: #c7c7c7;
+  font-size: 15px;
+  font-style: Manrope;
 }
 
 .box {
-    background-color: #1a1a1a;
-    color: #c7c7c7;
+  background-color: #1a1a1a;
+  color: #c7c7c7;
 }
 
 .box-1 {
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
 
 .box-2 {
-    background-color: #d3e97a;
-    color: black;
-    border-radius: 10px;
-    margin-top: 10px;
+  background-color: #d3e97a;
+  color: black;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
-@media (max-width: 1200px) {
-    .All-pro {
-        flex-wrap: wrap;
-        text-align: center;
-    }
-    .About-section {
-        flex-wrap: wrap;
-        text-align: center;
-    }
-    .All-connect {
-        flex-wrap: wrap;
-        text-align: center;
-    }
+@media (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  .Pro-text-1{
+    width: 100%;
+    font-size: 100%;
+  }
+  .Pro-text-2 {
+    width: 100%;
+  }
+  .Pro-text-3 {
+    width: 100%;
+  }
+  .Pro-text-4 {
+    width: 100%;
+  }
+  .All-info {
+    width: 100%;
+    flex-direction: column;
+  }
+  .Promo{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 }
