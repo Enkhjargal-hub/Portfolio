@@ -252,10 +252,18 @@ header {
 
 .All-1 {
     width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .All-2 {
     width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .All-connect {
@@ -263,6 +271,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .connect-text-1 {
@@ -303,4 +313,19 @@ header {
     color: black;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+@media (max-width: 1200px) {
+    .All-pro {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .About-section {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .All-connect {
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
