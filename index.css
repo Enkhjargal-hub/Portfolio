@@ -250,6 +250,21 @@ header {
     font-style: Manrope;
 }
 
+.All-1 {
+    width: 50%;
+}
+
+.All-2 {
+    width: 50%;
+}
+
+.All-connect {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .connect-text-1 {
     color: white;
     font-size: 28px;
@@ -268,3 +283,24 @@ header {
     font-style: Manrope;
 }
 
+.connect-text-4 {
+    color: #c7c7c7;
+    font-size: 15px;
+    font-style: Manrope;
+}
+
+.box {
+    background-color: #1a1a1a;
+    color: #c7c7c7;
+}
+
+.box-1 {
+    background-color: #1a1a1a;
+}
+
+.box-2 {
+    background-color: #d3e97a;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
