@@ -314,6 +314,10 @@ header {
   margin-top: 10px;
 }
 
+.texti {
+  width: 704px;
+}
+
 @media (max-width: 600px) {
   body {
     background-color: red;
@@ -338,10 +342,41 @@ header {
     justify-content: center;
     align-items: center;
   }
+  .Promo-1{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Promo-2{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
   .Promo-img {
     width: 100%;
   }
-  .Text-area {
+  .Pro-img {
     width: 100%;
+  }
+  .Pro-section {
+    width: 100%;
+  }
+  .About-text-1 {
+    display: none;
+  }
+  .About-text-3 {
+    display: none;
+  }
+  .About-text-2 {
+    width: 100%;
+    font-size: 14px;
+  }
+  .All-connect {
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 40px;
+    margin-left: 40px;
   }
 }
