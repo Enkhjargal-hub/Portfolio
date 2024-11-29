@@ -379,4 +379,14 @@ header {
     margin-left: 40px;
     margin-left: 40px;
   }
+  .All-1 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .All-2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 }
